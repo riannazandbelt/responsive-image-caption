@@ -58,6 +58,33 @@ h2 {
     line-height: 1.4;
   }
 
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    top: 8rem;
+    right: 1.5rem;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 1.2rem 1.4rem;
+    border-radius: 15px;
+  }
+
+  h2 {
+    color: #fff;
+
+  }
+
+  p {
+    color: #fff;
+    max-width: 18em;
+    margin-bottom: 0;
+  }
+
+  .banner-content {
+    padding: 0;
+  }
 
 }
 
