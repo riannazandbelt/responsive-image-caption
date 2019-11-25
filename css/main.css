@@ -41,13 +41,14 @@ figure {
 
 h2 {
   margin: 0;
+  font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 25em) {
 
-.banner-content {
-  padding: 1.3rem 1.3rem;
-}
+  .banner-content {
+    padding: 1.3rem 1.3rem;
+  }
 
 }
 
@@ -64,7 +65,7 @@ h2 {
 
   figcaption {
     position: absolute;
-    top: 8rem;
+    bottom: 28rem;
     right: 1.5rem;
     background-color: rgba(0, 0, 0, .3);
     padding: 1.2rem 1.4rem;
@@ -95,6 +96,10 @@ h2 {
     line-height: 1.5;
   }
 
+  figcaption{
+    bottom: 18rem;
+    right: 1rem;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -103,5 +108,9 @@ h2 {
     font-size: 130%;
   }
 
+  figcaption{
+    bottom: 18rem;
+    right: 1rem;
+  }
 
 }
